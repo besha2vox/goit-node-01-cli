@@ -1,0 +1,33 @@
+{
+    "name": "goit-node-01-cli",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index",
+        "dev": "nodemon index",
+        "list": "node index.js --action='list'",
+        "get": "node index.js --action='get' --id=5",
+        "add": "node index.js --action='add' --name='Mango' --email='mango@gmail.com' --phone='322-22-22'",
+        "remove": "node index.js --action='remove' --id=3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/besha2vox/goit-node-01-cli.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/besha2vox/goit-node-01-cli/issues"
+    },
+    "homepage": "https://github.com/besha2vox/goit-node-01-cli#readme",
+    "devDependencies": {
+        "nodemon": "^2.0.21"
+    },
+    "dependencies": {
+        "uuid": "^9.0.0",
+        "yargs": "^17.7.1"
+    }
+}
